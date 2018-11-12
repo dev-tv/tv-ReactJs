@@ -29,4 +29,4 @@ Folder Structure:
 		   |----webpack.config.js
 		   |
    
-Technology & tools: ReactJS, HTML, JSX, CSS, JavaScript, AWS, Webpack, Babel, Node, NPM
+Technologies & tools: ReactJS, HTML, JSX, CSS, JavaScript, AWS, Webpack, Babel, Node, NPM

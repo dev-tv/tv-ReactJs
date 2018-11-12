@@ -33,15 +33,15 @@ export default class ActiveCreators extends React.Component {
 		        let urlProfile = "creator-page/"+creator.id;
 		        let profilePicView = '';
 		        let thumbnailParametersProfile = {
-		          originalUrl: creator.profilePic,
-		          dimensions: "60x60",
-		          fileType: "profile"
+		          	originalUrl: creator.profilePic,
+		          	dimensions: "60x60",
+		          	fileType: "profile"
 		        }
 
 		        if(creator.profilePic == undefined || creator.profilePic == '' || creator.profilePic == null){
-		          profilePicView = <img src={Constants.CLOUDFRONT_URL+"/profile/1533192186943_default.png"} alt={creator.username} width="68px" />;
+		          	profilePicView = <img src={Constants.CLOUDFRONT_URL+"/profile/1533192186943_default.png"} alt={creator.username} width="68px" />;
 		        } else {
-		          profilePicView = <img src={thumbnailUrlGenerator(thumbnailParametersProfile)} alt={creator.username} width="68px"  />;
+		          	profilePicView = <img src={thumbnailUrlGenerator(thumbnailParametersProfile)} alt={creator.username} width="68px"  />;
 		        }
 
 		        return(
